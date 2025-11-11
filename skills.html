@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Felix Kunneh Portfolio</title>
+    <meta name="description" content="View Felix Kunneh's technical skills in web development, programming languages, and software tools.">
+    <link rel="shortcut icon" href="images/fk.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header-main">
+        <div class="header-main-logo">
+          <a href="index.html"><img src="images/logofk.png" alt="FK WEB TECH LOGO"></a>
+          <nav class="header-main-nav">
+            <ul>
+              <li><a href="index.html#home">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li><a href="index.html#projects">Projects</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        
+        <div class="header-main-icon">
+          <a href="https://facebook.com" target="_blank" class="header-main-icon-fb"></a>
+          <a href="https://instagram.com" target="_blank" class="header-main-icon-ig"></a>
+          <a href="https://github.com" target="_blank" class="header-main-icon-github">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="skills-main">
+            <div class="skills-hero">
+                <div class="container">
+                    <h1>My Technical Skills</h1>
+                    <p>Explore my expertise in various technologies and programming languages</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <!-- Programming Languages -->
+                <section class="skills-category">
+                    <h2><i class="fas fa-code"></i> Programming Languages</h2>
+                    <div class="skills-grid">
+                        <div class="skill-card" onclick="openSkillLink('https://www.w3schools.com/js/')">
+                            <i class="fab fa-js-square"></i>
+                            <h3>JavaScript</h3>
+                            <p>ES6+, DOM manipulation, modern JS frameworks</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <span>90%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" onclick="openSkillLink('https://www.python.org/')">
+                            <i class="fab fa-python"></i>
+                            <h3>Python</h3>
+                            <p>Data science, automation, backend development</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <span>85%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" onclick="openSkillLink('https://www.w3schools.com/cs/')">
+                            <i class="fas fa-code"></i>
+                            <h3>C#</h3>
+                            <p>Object-oriented programming, .NET framework</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                                <span>80%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" onclick="openSkillLink('https://www.w3schools.com/cpp/')">
+                            <i class="fas fa-code"></i>
+                            <h3>C++</h3>
+                            <p>System programming, algorithms, performance optimization</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                                <span>75%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" onclick="openSkillLink('https://www.w3schools.com/php/')">
+                            <i class="fab fa-php"></i>
+                            <h3>PHP</h3>
+                            <p>Server-side web development, dynamic websites</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Web Technologies -->
+                <section class="skills-category">
+                    <h2><i class="fas fa-globe"></i> Web Technologies</h2>
+                    <div class="skills-grid">
+                        <div class="skill-card" onclick="openSkillLink('https://www.w3schools.com/html/')">
+                            <i class="fab fa-html5"></i>
+                            <h3>HTML5</h3>
+                            <p>Semantic markup, accessibility, modern web standards</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                                <span>95%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" onclick="openSkillLink('https://www.w3schools.com/css/')">
+                            <i class="fab fa-css3-alt"></i>
+                            <h3>CSS3</h3>
+                            <p>Responsive design, animations, modern styling</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <span>90%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" onclick="openSkillLink('https://reactjs.org/')">
+                            <i class="fab fa-react"></i>
+                            <h3>React.js</h3>
+                            <p>Component-based UI, hooks, state management</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <span>85%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" onclick="openSkillLink('https://laravel.com/')">
+                            <i class="fas fa-laravel"></i>
+                            <h3>Laravel</h3>
+                            <p>PHP framework, MVC architecture, API development</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Databases & Tools -->
+                <section class="skills-category">
+                    <h2><i class="fas fa-database"></i> Databases & Tools</h2>
+                    <div class="skills-grid">
+                        <div class="skill-card" onclick="openSkillLink('https://www.w3schools.com/sql/')">
+                            <i class="fas fa-database"></i>
+                            <h3>MySQL</h3>
+                            <p>Database design, optimization, complex queries</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <span>85%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" onclick="openSkillLink('https://www.w3schools.com/excel/')">
+                            <i class="fas fa-file-excel"></i>
+                            <h3>Excel</h3>
+                            <p>Data analysis, automation, advanced formulas</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Design & Development Tools -->
+                <section class="skills-category">
+                    <h2><i class="fas fa-palette"></i> Design & Development Tools</h2>
+                    <div class="skills-grid">
+                        <div class="skill-card" onclick="openSkillLink('https://www.adobe.com/products/photoshop.html')">
+                            <i class="fas fa-palette"></i>
+                            <h3>Photoshop</h3>
+                            <p>Graphic design, image editing, UI mockups</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                                <span>75%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" onclick="openSkillLink('https://developer.android.com/')">
+                            <i class="fab fa-android"></i>
+                            <h3>Android Development</h3>
+                            <p>Mobile app development, Java/Kotlin, Android Studio</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Computer Science Fundamentals -->
+                <section class="skills-category">
+                    <h2><i class="fas fa-graduation-cap"></i> Computer Science Fundamentals</h2>
+                    <div class="skills-grid">
+                        <div class="skill-card" onclick="openSkillLink('https://www.geeksforgeeks.org/data-structures/')">
+                            <i class="fas fa-sitemap"></i>
+                            <h3>Data Structures & Algorithms</h3>
+                            <p>Problem solving, optimization, algorithmic thinking</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                                <span>80%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" onclick="openSkillLink('https://www.w3schools.com/os/')">
+                            <i class="fas fa-desktop"></i>
+                            <h3>Operating Systems</h3>
+                            <p>System administration, process management, file systems</p>
+                            <div class="skill-level">
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="foot-cont">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Felix Kunneh</h3>
+                <p>Full Stack Developer passionate about creating innovative web solutions.</p>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> kunnehfelix@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +233 54 922 7652</p>
+                <p><i class="fas fa-map-marker-alt"></i> Ghana, West Africa</p>
+            </div>
+            <div class="footer-section">
+                <h3>Visitor Stats</h3>
+                <p>Total Visitors: <span id="footer-visitor-count">0</span></p>
+                <p>Last Visit: <span id="last-visit">Never</span></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Felix Kunneh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
